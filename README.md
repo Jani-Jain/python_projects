@@ -1,2 +1,2 @@
-# python_projects
+# Python_Projects
 I will be displaying my scratch-built projects from the beginning of my journey till time
