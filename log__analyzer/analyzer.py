@@ -16,7 +16,7 @@ def read_log_file(filepath):
 
     with open(filepath, "r") as file:
         for line in file :
-            parsed = parse_log_line(line.split())
+            parsed = parse_log_line(line.strip())
             if parsed is not None :
                 entries.append(parsed)
 
