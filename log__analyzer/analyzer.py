@@ -3,9 +3,21 @@ def parse_log_line(line):
 
     if len(parts) < 4 :
         return None
-#Variables 
+
     timestamp = parts[0] + " " + parts[1]
     level = parts[2]
     message = " ".join(parts[3:])
 
     return timestamp,level,message
+
+#readlogfile
+def read_log_file(filepath):
+    entries = []
+
+    with open(filepath, "r") as file:
+        for line in file :
+            parsed = parse_log_line(line.split())
+            if parsed is not None :
+                entries.append(parsed)
+
+    return entries
