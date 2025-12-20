@@ -1,0 +1,20 @@
+2025-09-14 09:00:01 INFO Server started
+2025-09-14 09:00:05 INFO Listening on port 8080
+2025-09-14 09:01:12 INFO User logged in
+2025-09-14 09:01:15 INFO User logged in
+2025-09-14 09:02:03 WARNING Disk space low
+2025-09-14 09:02:10 INFO User requested resource
+2025-09-14 09:02:45 ERROR Database connection failed
+2025-09-14 09:02:50 ERROR Database connection failed
+2025-09-14 09:03:01 INFO User logged out
+2025-09-14 09:03:15 WARNING Disk space low
+2025-09-14 09:03:30 INFO User logged in
+2025-09-14 09:04:00 ERROR Timeout while contacting service
+2025-09-14 09:04:10 INFO Health check passed
+2025-09-14 09:04:20 INFO Health check passed
+2025-09-14 09:04:30 INFO Health check passed
+this is not a valid log line
+2025-09-14 09:05:00 ERROR Database connection failed
+2025-09-14 09:05:10 WARNING High memory usage
+2025-09-14 09:05:20 WARNING High memory usage
+2025-09-14 09:05:30 INFO Server shutdown initiated
