@@ -1,14 +1,10 @@
-Below is a **clean, OSS-acceptable README**. You can paste this **as-is** into `README.md`.
-It is intentionally concise and professional—no fluff.
-
-
 # Log File Analyzer
 
 A simple command-line tool that analyzes plain-text log files and summarizes log levels and frequently occurring log messages.
 
 This tool is designed to help quickly extract useful insights from large log files without manually scanning them.
 
----
+
 
 ## Supported Log Format
 
