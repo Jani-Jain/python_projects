@@ -64,7 +64,6 @@ Database connection failed (3)
 User logged in (3)
 Disk space low (2)
 ```
-
 ---
 
 ## Project Structure
