@@ -1,0 +1,12 @@
+{
+    "required_columns": [
+      "id",
+      "name",
+      "email"
+    ],
+    "optional_columns": [
+      "age",
+      "phone"
+    ]
+  }
+  
