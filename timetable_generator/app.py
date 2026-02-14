@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-FILE_PATH = "Examination I Timetable for 2025-26 Semester II.xlsx"
+FILE_PATH = "EXAM 2"
 
 def generate_timetable(course_input):
     df = pd.read_excel(FILE_PATH, sheet_name="Sheet1", header=None)
